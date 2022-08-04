@@ -53,7 +53,7 @@ function FinalPage() {
             color: 'red',
           }}>{emailError}</span> */}
           <div>
-            <Button size="small" variant="contained" onClick={saveFile}>Download</Button>
+            <Button size="small" variant="contained" color="success" onClick={saveFile}>Download</Button>
             </div>
         </div>
        

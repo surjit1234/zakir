@@ -54,7 +54,7 @@ function SecondPage() {
             color: 'red',
           }}>{emailError}</span>
           <div style={{marginTop:"10px",marginLeft:"150px"}}>
-            <Button size="small" variant="contained" onClick={()=>onConfirmPressed()}>Verify OTP</Button>
+            <Button size="small" variant="contained"  color="success" onClick={()=>onConfirmPressed()}>Verify OTP</Button>
             </div>
         </div>
        

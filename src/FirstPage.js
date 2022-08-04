@@ -68,14 +68,16 @@ function FirstPage() {
         alignItems:"center",
         alignContent:"center"}}>
           <h2 style={{marginLeft:'30px'}}>Description of the application</h2>
-          <span style={{marginLeft:'60px'}}>Enter Email: </span><input type="text" id="userEmail" 
+          <span style={{marginLeft:'100px'}}></span><input type="text" id="userEmail" 
+          placeholder="Enter Email Address"
           onChange={(e) => validateEmail(e)}></input> <br />
           <span style={{
             fontWeight: 'bold',
+            marginLeft:'100px',
             color: 'red',
           }}>{emailError}</span>
           <div style={{marginTop:"20px",marginLeft:"150px"}}>
-            <Button size="small" variant="contained" onClick={()=>onRegisterPressed()}>Register</Button>
+            <Button size="small" variant="contained"  color="success" onClick={()=>onRegisterPressed()}>Sign up</Button>
             </div>
         </div>
        
