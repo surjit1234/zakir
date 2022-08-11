@@ -37,18 +37,19 @@ function SecondPage() {
         display:'flex',
         width:"100%",
         height:'600px',   
-        backgroundColor:'lightGrey',
+        backgroundColor:'#141416',
         justifyContent:"center",
         alignItems: 'center',
       }}>
-        <div style={{width:'400px',height:'170px',borderWidth:'1px',
-        borderColor:'black',
-        borderStyle:"solid",
+        <div style={{width:'400px',height:'170px',
+        //borderWidth:'1px',
+        //borderColor:'black',
+        //borderStyle:"solid",
         justifyContent:"center",      
         alignItems:"center",
         alignContent:"center"}}>
           {/* <h2 style={{marginLeft:'30px'}}>Description of the application</h2> */}
-          <div style={{marginLeft:'60px',marginTop:'20px'}}>Enter OTP: <input type="text"  onChange={(e) => validateEmail(e)}></input></div> <br />
+          <div style={{marginLeft:'60px',marginTop:'20px',color:'white'}}>Enter OTP: <input type="text"  onChange={(e) => validateEmail(e)}></input></div> <br />
           <span style={{
             fontWeight: 'bold',
             color: 'red',
