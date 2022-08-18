@@ -51,7 +51,7 @@
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #FF4820;
+   
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -60,6 +60,13 @@
     outline: none;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.enableButton{
+    background: #FF4820;
+}
+.disableButton{
+    background:grey;
 }
 
 .gpt3__navbar-menu {
